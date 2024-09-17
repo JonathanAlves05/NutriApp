@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mChat"
+        android:icon="@drawable/baseline_email"
+        android:title="Chat"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mGrupos"
+        android:icon="@drawable/baseline_email"
+        android:title="Grupos"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mStatus"
+        android:icon="@drawable/baseline_email"
+        android:title="Status"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mCall"
+        android:icon="@drawable/baseline_email"
+        android:title="Call"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mCall"
+        android:icon="@drawable/baseline_email"
+        android:title="Call"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
