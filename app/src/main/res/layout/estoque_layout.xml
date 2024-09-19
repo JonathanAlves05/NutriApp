@@ -8,6 +8,13 @@
     tools:context=".EstoqueActivity"
     android:background="@color/corFundo">
 
+     <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/idFragmentEstoque"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
