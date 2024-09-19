@@ -2,24 +2,44 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/idEstoque"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EstoqueActivity">
+    tools:context=".EstoqueActivity"
+    android:background="@color/corFundo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Estoque"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/txtHeaderEstoque"
+        android:background="@color/corTextoVerde"
+        android:drawableEnd="@drawable/logoapp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:id="@+id/idRecView"
+        android:layout_below="@+id/txtHeaderEstoque"
         />
 
-    <Button
-        android:id="@+id/btnAddProduto"
-        android:layout_width="wrap_content"
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/idRecView"
-        android:layout_centerHorizontal="true"
-        android:text="Adicionar Produto"
-        />
+        app:menu="@menu/menu_bottombar"
 
+        android:layout_gravity="bottom"
+        android:layerType="none"
+        android:background="@color/corFundo"
+        app:labelVisibilityMode="labeled"
+        android:layout_alignParentBottom="true"
+        app:itemTextAppearanceActiveBoldEnabled="false"
+        app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"
+
+        />
 </RelativeLayout>

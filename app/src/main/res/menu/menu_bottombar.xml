@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/idEstoque"
+        android:icon="@drawable/estoque_icon"
+        android:title="Estoque"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/idPratos"
+        android:icon="@drawable/pratos_icon"
+        android:title="Pratos"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/idHistorico"
+        android:icon="@drawable/historico_icon"
+        android:title="Histórico"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/idPerfil"
+        android:icon="@drawable/person_icon"
+        android:title="Perfil"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/idCardapío"
+        android:icon="@drawable/cardapio_icon"
+        android:title="Cardápio"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

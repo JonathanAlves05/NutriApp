@@ -2,6 +2,8 @@ package br.com.etecia.nutriapp;
 
 public class Produto  {
     private String nome ;
+    private String txtQuantidade;
+    private String txtPreco;
     private int quantidade;
     private double preco;
 

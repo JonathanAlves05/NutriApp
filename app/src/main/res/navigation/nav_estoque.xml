@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_estoque"
+    app:startDestination="@id/idEstoque">
+
+    <activity
+        android:id="@+id/idEstoque"
+        android:name="br.com.etecia.nutriapp.EstoqueActivity"
+        android:label="estoque_layout"
+        tools:layout="@layout/estoque_layout" />
+    <fragment
+        android:id="@+id/idPratos"
+        android:name="br.com.etecia.nutriapp.fragment.PratosFragment"
+        android:label="fragment_pratos"
+        tools:layout="@layout/fragment_pratos" />
+    <fragment
+        android:id="@+id/idHistorico"
+        android:name="br.com.etecia.nutriapp.fragment.HistoricoFragment"
+        android:label="fragment_historico"
+        tools:layout="@layout/fragment_historico" />
+    <fragment
+        android:id="@+id/idPerfil"
+        android:name="br.com.etecia.nutriapp.fragment.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
+        android:id="@+id/idCardapío"
+        android:name="br.com.etecia.nutriapp.fragment.CardapioFragment"
+        android:label="fragment_cardapio"
+        tools:layout="@layout/fragment_cardapio" />
+</navigation>
